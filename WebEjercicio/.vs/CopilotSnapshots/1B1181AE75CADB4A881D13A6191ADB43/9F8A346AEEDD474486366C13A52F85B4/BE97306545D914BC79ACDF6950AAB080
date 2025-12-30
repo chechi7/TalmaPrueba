@@ -1,0 +1,27 @@
+﻿@using FrontendMvc.Models
+@using System.Collections.Generic
+@model List<Vuelo>
+
+<form method="get">
+  <input name="origen" placeholder="Origen" />
+  <input name="destino" placeholder="Destino" />
+  <input name="fecha" placeholder="YYYY-MM-DD" />
+  <input name="aerolinea" placeholder="Aerolínea" />
+  <input name="numeroVuelo" placeholder="Número" />
+  <button type="submit">Buscar</button>
+</form>
+
+<table>
+  <thead><tr><th>Origen</th><th>Destino</th><th>Fecha</th><th>Aerolínea</th><th>Número</th></tr></thead>
+  <tbody>
+  @foreach(var v in Model) {
+    <tr>
+      <td>@v.CiudadOrigen</td>
+      <td>@v.CiudadDestino</td>
+      <td>@v.FechaVuelo.ToString("yyyy-MM-dd HH:mm")</td>
+      <td>@v.Aerolinea</td>
+      <td>@v.NumeroVuelo</td>
+    </tr>
+  }
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+﻿using System;
+
+namespace FrontendMvc.Models
+{
+    public class Vuelo
+    {
+        public int IdVuelo { get; set; }
+        public string CiudadOrigen { get; set; } = string.Empty;
+        public string CiudadDestino { get; set; } = string.Empty;
+        public DateTime FechaVuelo { get; set; }
+        public string Aerolinea { get; set; } = string.Empty;
+        public string NumeroVuelo { get; set; } = string.Empty;
+    }
+}

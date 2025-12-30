@@ -1,0 +1,11 @@
+﻿using System;
+
+public class Vuelo
+{
+    public int IdVuelo { get; set; }
+    public string CiudadOrigen { get; set; }
+    public string CiudadDestino { get; set; }
+    public DateTime FechaVuelo { get; set; }
+    public string Aerolinea { get; set; }
+    public string NumeroVuelo { get; set; }
+}

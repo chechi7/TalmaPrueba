@@ -1,0 +1,36 @@
+﻿@model System.Collections.Generic.List<FrontendMvc.Models.Vuelo>
+
+@{
+    ViewData["Title"] = "Vuelos";
+}
+
+<form method="get">
+  <input name="origen" placeholder="Origen" value="@(Request.Query["origen"].ToString())" />
+  <input name="destino" placeholder="Destino" value="@(Request.Query["destino"].ToString())" />
+  <input name="fecha" placeholder="YYYY-MM-DD" value="@(Request.Query["fecha"].ToString())" />
+  <input name="aerolinea" placeholder="Aerolínea" value="@(Request.Query["aerolinea"].ToString())" />
+  <input name="numeroVuelo" placeholder="Número" value="@(Request.Query["numeroVuelo"].ToString())" />
+  <button type="submit">Buscar</button>
+</form>
+
+@if (Model == null || Model.Count == 0)
+{
+    <p>No se encontraron vuelos.</p>
+}
+else
+{
+    <table>
+      <thead><tr><th>Origen</th><th>Destino</th><th>Fecha</th><th>Aerolínea</th><th>Número</th></tr></thead>
+      <tbody>
+      @foreach(var v in Model) {
+        <tr>
+          <td>@v.CiudadOrigen</td>
+          <td>@v.CiudadDestino</td>
+          <td>@v.FechaVuelo.ToString("yyyy-MM-dd HH:mm")</td>
+          <td>@v.Aerolinea</td>
+          <td>@v.NumeroVuelo</td>
+        </tr>
+      }
+      </tbody>
+    </table>
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "IdVuelo": 1,
+    "CiudadOrigen": "Madrid",
+    "CiudadDestino": "Barcelona",
+    "FechaVuelo": "2025-01-05T09:30:00Z",
+    "Aerolinea": "Iberia",
+    "NumeroVuelo": "IB123"
+  },
+  {
+    "IdVuelo": 2,
+    "CiudadOrigen": "Madrid",
+    "CiudadDestino": "Paris",
+    "FechaVuelo": "2025-01-06T14:45:00Z",
+    "Aerolinea": "AirFrance",
+    "NumeroVuelo": "AF456"
+  },
+  {
+    "IdVuelo": 3,
+    "CiudadOrigen": "Barcelona",
+    "CiudadDestino": "Berlin",
+    "FechaVuelo": "2025-01-07T08:15:00Z",
+    "Aerolinea": "Lufthansa",
+    "NumeroVuelo": "LH789"
+  },
+  {
+    "IdVuelo": 4,
+    "CiudadOrigen": "Valencia",
+    "CiudadDestino": "Lisboa",
+    "FechaVuelo": "2025-01-05T12:00:00Z",
+    "Aerolinea": "TAP",
+    "NumeroVuelo": "TP321"
+  },
+  {
+    "IdVuelo": 5,
+    "CiudadOrigen": "Sevilla",
+    "CiudadDestino": "Madrid",
+    "FechaVuelo": "2025-01-05T18:20:00Z",
+    "Aerolinea": "Ryanair",
+    "NumeroVuelo": "RY654"
+  },
+  {
+    "IdVuelo": 6,
+    "CiudadOrigen": "Bogota",
+    "CiudadDestino": "Monteria",
+    "FechaVuelo": "2025-01-05T18:20:00Z",
+    "Aerolinea": "Manchester United",
+    "NumeroVuelo": "CH777"
+  }
+]
