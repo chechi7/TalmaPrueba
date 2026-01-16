@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebEjercicio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3d9731b4b81e0c291c5df3dfde20bd2ff2b560b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebEjercicio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebEjercicio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
